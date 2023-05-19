@@ -1,0 +1,12 @@
+--No deja espacios
+SELECT last_name||first_name             
+FROM s_emp;
+
+--Con una coma como separador
+SELECT last_name||','||first_name              
+FROM s_emp
+
+--Con un espacio como separador
+SELECT last_name||' '||first_name              
+FROM s_emp;
+
